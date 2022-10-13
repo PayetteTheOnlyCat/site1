@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+
+*{
+	font-family:"calibri light";
+}
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-family: 'Silkscreen', cursive;
+	color: #FF0096;
+	text-decoration: underline;
+	font-size: 35px;
+}
+
+.titre{
+	display: flex;
+	align-items: center;
+	background-color: #142685;
+	padding: 20px;
+}
+.menu{
+	padding: 20px;
+	background-color: #142685;
+}
+.menu a{
+	font-family: 'Silkscreen', cursive;
+	text-decoration: none;
+	margin-right: 20px;
+}
+.menu a:hover{
+	background-color:#FF0096 ;
+	color: whitesmoke !important;
+}
+.corps{
+	padding: 20px;
+}
